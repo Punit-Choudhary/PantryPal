@@ -1,0 +1,11 @@
+export const PORT = process.env.PORT;
+export const NODE_ENV = process.env.NODE_ENV;
+export const MONGODB_URI = process.env.MONGODB_URI || '';
+export const JWT_SECRET = process.env.JWT_SECRET || '';
+export const JWT_EXPIRE = process.env.JWT_EXPIRE || '1h';
+export const VONAGE_API_KEY = process.env.VONAGE_API_KEY || '';
+export const VONAGE_API_SECRET = process.env.VONAGE_API_SECRET || '';
+export const BRAND = process.env.BRAND || '';
+export const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY || '';
+export const AZURE_ENDPOINT = process.env.AZURE_ENDPOINT || '';
+export const AZURE_KEY = process.env.AZURE_KEY || '';
